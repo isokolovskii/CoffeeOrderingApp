@@ -1,6 +1,6 @@
 //
-//  CoffeeOrderingppUITests.swift
-//  CoffeeOrderingppUITests
+//  CoffeeOrderingAppUITests.swift
+//  CoffeeOrderingAppUITests
 //
 //  Created by Иван Соколовский on 01.04.2020.
 //  Copyright © 2020 Ivan Sokolovskii. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class CoffeeOrderingppUITests: XCTestCase {
+class CoffeeOrderingAppUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

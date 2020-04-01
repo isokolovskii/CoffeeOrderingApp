@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  CoffeeOrderingpp
+//  CoffeeOrderingApp
 //
 //  Created by Иван Соколовский on 01.04.2020.
 //  Copyright © 2020 Ivan Sokolovskii. All rights reserved.
@@ -15,6 +15,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        UINavigationBar.appearance().backgroundColor = UIColor(displayP3Red: 165/255, green: 94/255, blue: 234/255, alpha: 1.0)
+        UINavigationBar.appearance().largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
+        
         return true
     }
 

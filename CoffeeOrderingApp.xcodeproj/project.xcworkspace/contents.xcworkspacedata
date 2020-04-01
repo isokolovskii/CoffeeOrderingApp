@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:CoffeeOrderingpp.xcodeproj">
+      location = "self:/Users/ivan/workspace/CoffeeOrderingpp/CoffeeOrderingApp.xcodeproj">
    </FileRef>
 </Workspace>
